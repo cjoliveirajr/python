@@ -1,0 +1,69 @@
+# -*- coding: utf-8 -*-
+"""
+Calculadora
+Autor: Cesar Junior de Olieira
+Função: Fazer contas: soma, divisão, multiplicação, subtração
+"""
+print("-----CALCULADORA v1.0 -----")
+
+num1 = imput("Digite o primeiro número: ")
+num1 = int(num1)
+operador = imput("Informe a operação (+-/*): ")
+num2 = imput("Digite o segundo número: ")
+num2 = int(num2)
+
+# + soma
+if operador == "+":
+	operacao = num1 + num2
+# - subtração
+if operador == "-":
+	operacao = num1 - num2
+# / divisão
+if operador == "/":
+	operacao = num1 / num2
+# * multiplicação
+if operador == "*":
+	operacao = num1 * num2
+
+print("Resultado: ")
+print("operacao: ")
+
+===============================================================================================
+
+# -*- coding: utf-8 -*-
+"""
+Calculadora
+Autor: Cesar Junior de Olieira
+Função: Fazer contas: soma, divisão, multiplicação, subtração
+"""
+print("-----CALCULADORA v2.0 -----")
+
+sair = False
+
+while sair == False;
+
+num1 = imput("Digite o primeiro número: ")
+num1 = int(num1)
+operador = imput("Informe a operação (+-/*): ")
+num2 = imput("Digite o segundo número: ")
+num2 = int(num2)
+
+# + soma
+if operador == "+":
+	operacao = num1 + num2
+# - subtração
+if operador == "-":
+	operacao = num1 - num2
+# / divisão
+if operador == "/":
+	operacao = num1 / num2
+# * multiplicação
+if operador == "*":
+	operacao = num1 * num2
+
+print("Resultado: ")
+print("operacao: ")
+
+teste = input("Desaja sair (n/s): ")
+if teste == "s":
+	sair = True
